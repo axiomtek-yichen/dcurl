@@ -39,6 +39,7 @@ endif
 endif
 
 TESTS = \
+	mpool \
 	trinary \
 	curl \
 	pow_sse
@@ -56,6 +57,7 @@ LIBS := $(addprefix $(OUT)/, $(LIBS))
 all: $(TESTS) $(LIBS)
 
 OBJS = \
+	mpool.o \
 	hash/curl.o \
 	constants.o \
 	trinary/trinary.o \

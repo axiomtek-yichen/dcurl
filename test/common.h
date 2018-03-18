@@ -1,6 +1,7 @@
 #ifndef TEST_COMMON_H
 #define TEST_COMMON_H
 
+#include "../src/mpool.h"
 #include "../src/hash/curl.h"
 #include "../src/trinary/trinary.h"
 
